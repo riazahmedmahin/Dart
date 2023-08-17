@@ -53,6 +53,6 @@ void main() {
   
   print("Car 2: ${car2.getBrand()} ${car2.getModel()} ${car2.getYear()} Miles: ${car2.getMilesDriven().toStringAsFixed(0)} Age: ${car2.getAge()}");
   
-  print("Car3:${car3.getBrand()}${car3.getModel()}${car3.getYear()}Miles:\n${car3.getMilesDriven().toStringAsFixed(0)} Age: ${car3.getAge()} Total number of\ncars created: ${Car.numberOfCars}");
+  print("Car3:${car3.getBrand()}${car3.getModel()}${car3.getYear()}Miles:\n${car3.getMilesDriven().toStringAsFixed(0)}Age: ${car3.getAge()} Total number of\ncars created: ${Car.numberOfCars}");
 
 }
