@@ -39,7 +39,6 @@ class Car {
 }
 
 void main() {
-
   Car car1 = Car("Toyota", "Camry", 2020);
   car1.drive(10000);
   
@@ -50,9 +49,6 @@ void main() {
   car3.drive(15000);
   
   print("Car 1: ${car1.getBrand()} ${car1.getModel()} ${car1.getYear()} Miles: ${car1.getMilesDriven().toStringAsFixed(0)} Age: ${car1.getAge()}");
-  
   print("Car 2: ${car2.getBrand()} ${car2.getModel()} ${car2.getYear()} Miles: ${car2.getMilesDriven().toStringAsFixed(0)} Age: ${car2.getAge()}");
-  
-  print("Car3:${car3.getBrand()}${car3.getModel()}${car3.getYear()}Miles:\n${car3.getMilesDriven().toStringAsFixed(0)}Age: ${car3.getAge()} Total number of\ncars created: ${Car.numberOfCars}");
-
+  print("Car 3: ${car3.getBrand()} ${car3.getModel()} ${car3.getYear()} Miles: ${car3.getMilesDriven().toStringAsFixed(0)} Age: ${car3.getAge()} \nTotal number of cars created: ${Car.numberOfCars}");
 }
